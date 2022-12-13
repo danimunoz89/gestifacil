@@ -1,0 +1,484 @@
+  /* Template */
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .body {
+    background-color: #212835;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    margin: 2%;
+
+    display: grid;
+    grid:
+      "header" auto "main" 1fr "footer" auto / 1fr;
+    gap: 8px;
+  }
+
+  .header {
+    background: #212835;
+    color: black;
+    height: 7vw;
+    margin: 1%;
+    padding: 1%;
+    text-align: left;
+    width: auto;
+  }
+
+  .logo {
+    height: auto;
+    width: 55vw;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .main__content {
+    align-items: center;
+    background-color: #60727c;
+    display: flex;
+    flex: 1 0;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 2%;
+    max-width: 100%;
+    order: 0;
+    padding: 1%;
+    border-radius: 1%;
+  }
+
+  .main__content_articulo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 100%;
+  }
+
+  /* Varias páginas */
+
+  a {
+    color: #327da2;
+    list-style: none;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #212835;
+    text-decoration: none;
+  }
+
+  .btn {
+    background-color: #327da2;
+    border-color: #353221;
+    box-shadow: 0px 8px 10px #2128358f;
+    color: white;
+  }
+
+  .card {
+    width: 25rem;
+  }
+
+  .closebutton {
+    background-color: #737373;
+    border-color: #353221;
+    box-shadow: 0px 8px 10px #2128358f;
+    color: white;
+  }
+
+  .img {
+    height: 4vh;
+  }
+
+  input {
+    box-shadow: 0px 2px 6px #2128358f;
+  }
+
+  .forms {
+    width: 60rem;
+  }
+
+  .maincontent {
+    width: 60rem;
+  }
+
+  .map {
+    border-radius: 1%;
+    box-shadow: 0px 8px 10px #13171fbe;
+  }
+
+  .picto {
+    width: 2.5rem;
+  }
+
+  .prodcats {
+    width: 7vw;
+  }
+
+  .prodcatssheet {
+    width: 7vw;
+  }
+
+  .resetbutton {
+    background-color: white;
+    border-color: #327da2;
+    box-shadow: 0px 8px 10px #2128358f;
+    color: #327da2;
+  }
+
+  select {
+    box-shadow: 0px 2px 6px #2128358f;
+  }
+
+  .table {
+    color: #dee2e6;
+    box-shadow: 0px 8px 10px #13171fbe;
+  }
+
+  .tablehead {
+    color: #707071;
+  }
+
+  .tablecells {
+    color: #707071;
+  }
+
+  .titleField {
+    font-weight: bold;
+    color: #327da2;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  /* Blade Enlaces Footer */
+
+  .aboutus {
+    width: 80%;
+  }
+
+  .logoabout {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+  }
+
+  .mapaweb {
+    min-height: 90%;
+    width: auto;
+    padding: 2vw;
+    justify-content: center;
+    font-size: large;
+    color: #327da2;
+    text-decoration: none;
+  }
+
+  .politica {
+    padding: 3vw;
+    width: 70vw;
+    margin: 2vw;
+  }
+
+  /* Blade inicio/login */
+
+  .alert {
+    box-shadow: 0px 8px 10px #4e1d228f;
+  }
+
+  .logoLogin {
+    height: auto;
+    width: 15vw;
+  }
+
+  /* Blade categorias/index */
+
+  .maincontent-categories {
+    width: 29.7rem;
+  }
+
+  /* Blade pedidos/crear_pedido */
+
+  .addbutton {
+    background-color: white;
+    border-color: green;
+    box-shadow: 0px 8px 10px #2128358f;
+    color: green;
+  }
+
+  .deletebutton {
+    background-color: white;
+    border-color: red;
+    box-shadow: 0px 8px 10px #2128358f;
+    color: red;
+  }
+
+  /*Footer*/
+  .footer {
+    background-color: #212835;
+    color: #737373;
+    font-size: 1.15vw;
+    line-height: 2.5vw;
+    padding-bottom: 2%;
+  }
+
+  .footer hr {
+    border-top-color: #bbb;
+    opacity: 50%;
+    margin: 3%;
+  }
+
+  .footer h2 {
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-top: 5px;
+    text-transform: uppercase;
+  }
+
+  .footer a {
+    color: #737373;
+    text-decoration: none;
+  }
+
+  .enlacesFooter {
+    padding-left: 0;
+    list-style: none
+  }
+
+  .enlacesFooter li {
+    display: block
+  }
+
+  .enlacesFooter a {
+    color: #737373
+  }
+
+  .enlacesFooter.inline li {
+    display: inline-block
+  }
+
+  .redesSociales {
+    padding-bottom: 1%;
+    text-align: center;
+  }
+
+  .copyright {
+    margin: 0;
+    text-align: center;
+  }
+
+  /*Mediaquery*/
+
+  @media (min-width:320px) and (max-width:600px) {
+
+    /* Template */
+
+    .header {
+      background: #212835;
+      height: 13vw;
+      padding: 2%;
+    }
+
+    .logo {
+      height: auto;
+      width: 92vw;
+    }
+
+    .main__content {
+      flex: 1;
+    }
+
+    /* Varias páginas */
+
+    .card {
+      width: auto;
+      margin-top: 5vw;
+      margin-bottom: 5vw;
+    }
+
+    .forms {
+      width: 20.5rem;
+      margin-top: 5vw;
+      margin-bottom: 5vw;
+    }
+
+    .maincontent {
+      width: 20.5rem;
+    }
+
+    .prodcatssheet {
+      width: 25vw;
+    }
+
+    .table {
+      display: block;
+      overflow-x: auto;
+    }
+
+    /* Blade inicio/login */
+
+    .alert {
+      width: 17rem;
+    }
+
+    .logoLogin {
+      height: auto;
+      width: 35vw;
+    }
+
+    /* Blade Enlaces Footer */
+
+    .abouttext {
+      margin-top: -10vw;
+    }
+
+    .mapaweb {
+      min-height: 80%;
+      width: auto;
+      margin-top: 5vw;
+      margin-bottom: 5vw;
+      justify-content: center;
+      font-size: medium;
+      color: #327da2;
+      text-decoration: none;
+    }
+
+    .politica {
+      padding: 3vw;
+      width: 85vw;
+      margin: 2vw;
+    }
+
+    /* Blade categorias/index */
+
+    .maincontent-categories {
+      width: 19.2rem;
+    }
+
+    /*Footer*/
+    .footer {
+      font-size: 3vw;
+      line-height: 6vw;
+      padding-bottom: 2%;
+      text-align: center;
+    }
+
+    .footer h2 {
+      font-size: 5vw;
+    }
+
+  }
+
+  @media (min-width:600px) and (max-width:1024px) {
+
+    /* Template */
+
+    .header {
+      background: #212835;
+      height: 13vw;
+      padding: 2%;
+    }
+
+    .logo {
+      height: auto;
+      width: 92vw;
+    }
+
+    .main__content {
+      flex: 1;
+    }
+
+    /* Varias páginas */
+
+    .card {
+      width: auto;
+      margin-top: 5vw;
+      margin-bottom: 5vw;
+    }
+
+    .forms {
+      width: auto;
+      margin-top: 5vw;
+      margin-bottom: 5vw;
+    }
+
+    .maincontent {
+      width: 35rem;
+    }
+
+    .prodcatssheet {
+      width: 14vw;
+    }
+
+    .table {
+      overflow-x: auto;
+    }
+
+    /* Blade inicio/login */
+
+    .logoLogin {
+      height: auto;
+      width: 35vw;
+    }
+
+    /* Blade Enlaces Footer */
+
+    .aboutus {
+      width: 100%;
+    }
+
+    .logoabout {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 100%;
+    }
+
+    .mapaweb {
+      min-height: 90%;
+      width: auto;
+      margin-top: 5vw;
+      margin-bottom: 5vw;
+      justify-content: center;
+      font-size: large;
+      color: #327da2;
+      text-decoration: none;
+    }
+
+    .politica {
+      padding: 3vw;
+      width: 70vw;
+      margin: 2vw;
+    }
+
+    /* Blade Index Categories */
+
+    .maincontent-categories {
+      width: 29.7rem;
+    }
+
+    /*Footer*/
+    .footer {
+      font-size: 1.5vw;
+      line-height: 4vw;
+      padding-bottom: 2%;
+      text-align: justify;
+    }
+
+    .footer h2 {
+      font-size: 3vw;
+    }
+
+    .copyright {
+      font-size: 2vw;
+    }
+
+  }
